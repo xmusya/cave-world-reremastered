@@ -1,9 +1,9 @@
-# Cave World Remastered (26.3 port)
+# Cave World ReRemastered (26.3 port)
 
 Brings back the classic **Cave** world type — the entire Overworld becomes a vast
 cave system — as a Minecraft data pack.
 
-- Original pack: [Cave World Remastered on Modrinth](https://modrinth.com/datapack/cave-world-remastered/versions) (v1.3.3 covers up to MC 26.2)
+- Original pack: [Cave World Re&amp; on Modrinth](https://modrinth.com/datapack/cave-world-reremastered/versions) (v1.3.3 covers up to MC 26.2)
 - This repository: same pack ported to **Minecraft 26.3** (data/overlay format `121.0`)
 
 ## Built data pack
@@ -11,7 +11,7 @@ cave system — as a Minecraft data pack.
 See the repo release, or build it yourself by zipping the repository root:
 
 ```
-zip -r "Cave World Remastered 26.3.zip" . -x '*desktop.ini' -x tools_scripts/\* -x pack.png -x '*.git*'
+zip -r "Cave World Re&amp; 26.3.zip" . -x '*desktop.ini' -x tools_scripts/\* -x pack.png -x '*.git*'
 ```
 
 (Drop `pack.png` in the zip root too if you want it shown in the pack selection UI.)
@@ -55,4 +55,4 @@ not required to use the pack.
 ## Credits
 
 - Big thanks to the original pack author — see the
-  [Modrinth versions page](https://modrinth.com/datapack/cave-world-remastered/versions).
+  [Modrinth versions page](https://modrinth.com/datapack/cave-world-reremastered/versions).
