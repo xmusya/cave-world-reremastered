@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 1,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 3,
+      "min_inclusive": 2
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:grass_block"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:solid"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:tall_grass",
+                  "minecraft:short_grass",
+                  "minecraft:vine"
+                ]
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:air",
+                        "minecraft:tall_grass",
+                        "minecraft:short_grass",
+                        "minecraft:vine"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:air",
+                        "minecraft:tall_grass",
+                        "minecraft:short_grass",
+                        "minecraft:vine"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:air",
+                        "minecraft:tall_grass",
+                        "minecraft:short_grass",
+                        "minecraft:vine"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:air",
+                        "minecraft:tall_grass",
+                        "minecraft:short_grass",
+                        "minecraft:vine"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:air",
+                        "minecraft:tall_grass",
+                        "minecraft:short_grass",
+                        "minecraft:vine"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:water"
+            }
+          }
+        }
+      ],
+      "type": "minecraft:rule_based_state_provider"
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:grass_block"
+      ]
+    }
+  }
+}

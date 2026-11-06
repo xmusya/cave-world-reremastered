@@ -1,0 +1,26 @@
+{
+  "feature": "minecraft:patch_brown_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 128
+    },
+	{
+      "type": "minecraft:count",
+      "count": 2
+    },
+	{
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+	{
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    }
+  ]
+}

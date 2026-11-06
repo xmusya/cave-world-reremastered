@@ -1,0 +1,33 @@
+{
+  "name": "cave:mansion2/mansion2_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "cave:mansion2/mansion1/a2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "cave:mansion2/mansion2/a2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "cave:mansion2/mansion3/a2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "data": {
+        "feature": "minecraft:seagrass_tall",
+        "placement": []
+      },
+      "weight": 300
+    },
+    {
+      "data": {
+        "feature": "minecraft:seagrass_short",
+        "placement": []
+      },
+      "weight": 700
+    }
+  ]
+}

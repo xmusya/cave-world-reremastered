@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/swamp_hut",
+  "step": "underground_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 1,
+          "count": 1
+        }
+      ]
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "weight": 1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "start_pool": "cave:swamp_hut2",
+  "size": 7,
+  "start_height": {
+    "type": "minecraft:trapezoid",
+    "min_inclusive": {
+      "absolute": 64
+    },
+    "max_inclusive": {
+      "below_top": 32
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

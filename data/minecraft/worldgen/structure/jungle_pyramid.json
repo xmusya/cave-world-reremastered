@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/jungle_temple",
+  "step": "underground_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "start_pool": "cave:jungle_pyramid2_start",
+  "size": 7,
+  "start_height": {
+    "type": "minecraft:trapezoid",
+    "min_inclusive": {
+      "absolute": 64
+    },
+    "max_inclusive": {
+      "below_top": 32
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": true,
+  "liquid_settings": "ignore_waterlogging"
+}

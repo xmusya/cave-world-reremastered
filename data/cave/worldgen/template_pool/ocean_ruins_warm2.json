@@ -1,0 +1,114 @@
+{
+  "name": "cave:ocean_ruins_warm2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_warm_4",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_warm_5",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_warm_6",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_warm_7",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_1",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_2",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_3",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_4",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_5",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_6",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_7",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/warm_8",
+        "processors": "cave:suspicious_sand_ocean_ruin_warm",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

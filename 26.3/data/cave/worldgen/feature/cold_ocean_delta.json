@@ -1,0 +1,154 @@
+{
+  "type": "minecraft:disk",
+  "half_height": 1,
+  "radius": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 3,
+    "min_inclusive": 2
+  },
+  "state_provider": {
+    "fallback": {
+      "id": "minecraft:grass_block"
+    },
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:all_of",
+          "predicates": [
+            {
+              "type": "minecraft:solid"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:tall_grass",
+                "minecraft:short_grass",
+                "minecraft:large_fern",
+                "minecraft:fern",
+                "minecraft:brown_mushroom",
+                "minecraft:red_mushroom",
+                "minecraft:sweet_berry_bush"
+              ]
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:tall_grass",
+                      "minecraft:short_grass",
+                      "minecraft:large_fern",
+                      "minecraft:fern",
+                      "minecraft:brown_mushroom",
+                      "minecraft:red_mushroom",
+                      "minecraft:sweet_berry_bush"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      0,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:tall_grass",
+                      "minecraft:short_grass",
+                      "minecraft:large_fern",
+                      "minecraft:fern",
+                      "minecraft:brown_mushroom",
+                      "minecraft:red_mushroom",
+                      "minecraft:sweet_berry_bush"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      -1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:tall_grass",
+                      "minecraft:short_grass",
+                      "minecraft:large_fern",
+                      "minecraft:fern",
+                      "minecraft:brown_mushroom",
+                      "minecraft:red_mushroom",
+                      "minecraft:sweet_berry_bush"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      0,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:tall_grass",
+                      "minecraft:short_grass",
+                      "minecraft:large_fern",
+                      "minecraft:fern",
+                      "minecraft:brown_mushroom",
+                      "minecraft:red_mushroom",
+                      "minecraft:sweet_berry_bush"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:tall_grass",
+                      "minecraft:short_grass",
+                      "minecraft:large_fern",
+                      "minecraft:fern",
+                      "minecraft:brown_mushroom",
+                      "minecraft:red_mushroom",
+                      "minecraft:sweet_berry_bush"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "then": {
+          "id": "minecraft:water"
+        }
+      }
+    ],
+    "type": "rule_based"
+  },
+  "target": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:grass_block",
+      "minecraft:podzol",
+      "minecraft:coarse_dirt"
+    ]
+  }
+}

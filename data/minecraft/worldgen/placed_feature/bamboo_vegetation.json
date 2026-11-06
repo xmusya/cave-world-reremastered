@@ -1,0 +1,37 @@
+{
+  "feature": "minecraft:bamboo_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 30,
+            "weight": 9
+          },
+          {
+            "data": 31,
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    },
+	{
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    }
+  ]
+}

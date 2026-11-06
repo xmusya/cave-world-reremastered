@@ -1,0 +1,185 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water",
+              "minecraft:seagrass",
+              "minecraft:tall_seagrass"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": 11,
+              "provider": {
+                "id": "minecraft:kelp_plant"
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "id": "minecraft:kelp",
+                "properties": {
+                  "age": "12"
+                }
+              }
+            }
+          ]
+        },
+        "placement": []
+      },
+      "weight": 300
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water",
+              "minecraft:seagrass",
+              "minecraft:tall_seagrass"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": 8,
+              "provider": {
+                "id": "minecraft:kelp_plant"
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "id": "minecraft:kelp",
+                "properties": {
+                  "age": "9"
+                }
+              }
+            }
+          ]
+        },
+        "placement": []
+      },
+      "weight": 420
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water",
+              "minecraft:seagrass",
+              "minecraft:tall_seagrass"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": 4,
+              "provider": {
+                "id": "minecraft:kelp_plant"
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "id": "minecraft:kelp",
+                "properties": {
+                  "age": "5"
+                }
+              }
+            }
+          ]
+        },
+        "placement": []
+      },
+      "weight": 168
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water",
+              "minecraft:seagrass",
+              "minecraft:tall_seagrass"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": 2,
+              "provider": {
+                "id": "minecraft:kelp_plant"
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "id": "minecraft:kelp",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            }
+          ]
+        },
+        "placement": []
+      },
+      "weight": 34
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water",
+              "minecraft:seagrass",
+              "minecraft:tall_seagrass"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": 6,
+              "provider": {
+                "id": "minecraft:kelp_plant"
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "id": "minecraft:kelp",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            }
+          ]
+        },
+        "placement": []
+      },
+      "weight": 78
+    }
+  ]
+}

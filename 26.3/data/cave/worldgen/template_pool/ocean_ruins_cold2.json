@@ -1,0 +1,330 @@
+{
+  "name": "cave:ocean_ruins_cold2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_brick_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_cracked_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_mossy_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_brick_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_cracked_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_mossy_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_brick_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_cracked_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_mossy_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_brick_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_cracked_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/big_mossy_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_1",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_2",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_3",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_4",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_4",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_4",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_5",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_5",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_5",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_6",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_6",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_6",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_7",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_7",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_7",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/brick_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/cracked_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:underwater_ruin/mossy_8",
+        "processors": "cave:suspicious_gravel_ocean_ruin_cold",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "feature": "minecraft:patch_red_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 512
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

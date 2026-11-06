@@ -1,0 +1,25 @@
+{
+  "feature": "minecraft:desert_well",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1000
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "config": {
+              "state_provider": {
+                "fallback": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:ice"
+                  }
+                },
+                "rules": []
+              },
+              "radius": 4,
+              "half_height": 1,
+              "target": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:water"
+                ]
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.75,
+        "feature": {
+          "feature": {
+            "config": {
+              "state_provider": {
+                "fallback": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:ice"
+                  }
+                },
+                "rules": []
+              },
+              "radius": 8,
+              "half_height": 1,
+              "target": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:water"
+                ]
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "config": {
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:ice"
+              }
+            },
+            "rules": []
+          },
+          "radius": 6,
+          "half_height": 1,
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "type": "minecraft:disk"
+      },
+      "placement": []
+    }
+  }
+}

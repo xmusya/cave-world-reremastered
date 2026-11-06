@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/woodland_mansion",
+  "max_distance_from_center": 80,
+  "size": 6,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 64
+  },
+  "start_pool": "cave:mansion2/mansion2_start",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": true
+}

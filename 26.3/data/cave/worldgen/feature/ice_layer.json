@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:disk",
+          "state_provider": {
+            "id": "minecraft:ice"
+          },
+          "radius": 4,
+          "half_height": 1,
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "placement": []
+      },
+      "weight": 500
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:disk",
+          "state_provider": {
+            "id": "minecraft:ice"
+          },
+          "radius": 8,
+          "half_height": 1,
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "placement": []
+      },
+      "weight": 375
+    },
+    {
+      "data": {
+        "feature": {
+          "type": "minecraft:disk",
+          "state_provider": {
+            "id": "minecraft:ice"
+          },
+          "radius": 6,
+          "half_height": 1,
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "placement": []
+      },
+      "weight": 125
+    }
+  ]
+}

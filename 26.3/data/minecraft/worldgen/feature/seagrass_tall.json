@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block_column",
+  "direction": "up",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:water",
+      "minecraft:seagrass"
+    ]
+  },
+  "prioritize_tip": false,
+  "layers": [
+    {
+      "height": 1,
+      "provider": {
+        "id": "minecraft:tall_seagrass",
+        "properties": {
+          "half": "lower"
+        }
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "id": "minecraft:tall_seagrass",
+        "properties": {
+          "half": "upper"
+        }
+      }
+    }
+  ]
+}

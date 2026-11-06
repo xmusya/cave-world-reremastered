@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "minecraft:seagrass_tall",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "minecraft:seagrass_short",
+      "placement": []
+    }
+  }
+}
