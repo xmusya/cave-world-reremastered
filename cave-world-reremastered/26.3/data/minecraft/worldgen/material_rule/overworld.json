@@ -9,55 +9,23 @@
      "minecraft:dappled_forest"
     ]
    },
-   "then_run": {
-    "type": "minecraft:sequence",
-    "sequence": [
-     {
-      "type": "minecraft:condition",
-      "if_true": "minecraft:not_underwater",
-      "then_run": "minecraft:dappled_condition/underwater_floor_dirt"
+   "then_run": [
+    {
+     "type": "minecraft:condition",
+     "if_true": {
+      "type": "minecraft:stone_depth",
+      "add_surface_depth": false,
+      "offset": 0,
+      "secondary_depth_range": 0,
+      "surface_type": "floor"
      },
-     {
-      "type": "minecraft:condition",
-      "if_true": {
-       "type": "minecraft:not",
-       "invert": "minecraft:not_underwater"
-      },
-      "then_run": {
-       "type": "minecraft:sequence",
-       "sequence": [
-        {
-         "type": "minecraft:condition",
-         "if_true": "minecraft:not_underwater",
-         "then_run": {
-          "type": "minecraft:condition",
-          "if_true": {
-           "type": "minecraft:stone_depth",
-           "add_surface_depth": false,
-           "offset": 0,
-           "secondary_depth_range": 0,
-           "surface_type": "floor"
-          },
-          "then_run": {
-           "type": "minecraft:block",
-           "result_state": "minecraft:grass_block"
-          }
-         }
-        },
-        {
-         "type": "minecraft:condition",
-         "if_true": {
-          "type": "minecraft:not",
-          "invert": "minecraft:not_underwater"
-         },
-         "then_run": "minecraft:dappled_condition/underwater_floor_dirt"
-        },
-        "minecraft:overworld/biome_surface/dappled_forest"
-       ]
-      }
+     "then_run": {
+      "type": "minecraft:block",
+      "result_state": "minecraft:grass_block"
      }
-    ]
-   }
+    },
+    "minecraft:overworld/biome_surface/dappled_forest"
+   ]
   },
   {
    "type": "minecraft:condition",
