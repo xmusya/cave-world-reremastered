@@ -19,3 +19,9 @@ Current target version: **Minecraft 26.3** (pack format 121).
 - `surface_rule` → `material_rule` id; aquifer fields moved into an `aquifers` object
 - `minecraft:beardifier` (as a type object) must be added to custom final_density or jigsaw structures break
 - `minecraft:constant` uses `"value"`, not `"argument"`; gradient `from/to_value` bounded ±1,000,000 (coordinates are not)
+
+- # Thanks
+datapack.wiki for giving the bigger docs
+minecraft.wiki for giving smaller docs
+
+(i mean they didnt give me anything i just stole it)
