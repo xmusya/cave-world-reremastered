@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:gradient",
+    "axis": "y",
+    "tiling": "clamp_to_edge",
+    "from_coordinate": 309,
+    "to_coordinate": 310,
+    "from_value": -1,
+    "to_value": 1
+  },
+  "min_inclusive": -100,
+  "max_exclusive": 0,
+  "when_in_range": "farlands:corner_farlands_hills",
+  "when_out_of_range": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 310,
+    "input": "farlands:corner_farlands_hills"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Revamped Floating Islands",
+        "color": "#ffa71a"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Klinbee",
+        "color": "#ffbbbb"
+      }
+    ],
+    "pack_format": 121,
+    "min_format": 121,
+    "max_format": 199,
+    "supported_formats": [
+      121,
+      199
+    ]
+  }
+}

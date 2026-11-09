@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "from_coordinate": 270,
+          "to_coordinate": 290,
+          "from_value": 0,
+          "to_value": 1
+        },
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "from_coordinate": 290,
+          "to_coordinate": 310,
+          "from_value": 0,
+          "to_value": -1
+        }
+      },
+      "right": 1
+    },
+    "right": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:noise",
+            "noise": "farlands:farlands",
+            "xz_scale": 0.01,
+            "y_scale": 1,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": 0
+          },
+          "min": 0,
+          "max": 1
+        },
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "tiling": "clamp_to_edge",
+          "from_coordinate": 270,
+          "to_coordinate": 290,
+          "from_value": 1,
+          "to_value": -0.5
+        }
+      },
+      "right": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:noise",
+          "noise": "farlands:farlands",
+          "xz_scale": 0.01,
+          "y_scale": 1,
+          "shift_x": 0,
+          "shift_y": 0,
+          "shift_z": 0
+        },
+        "min": -1,
+        "max": 0
+      }
+    }
+  },
+  "min": -1,
+  "max": 1
+}

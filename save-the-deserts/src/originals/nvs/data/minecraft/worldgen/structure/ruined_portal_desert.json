@@ -1,0 +1,29 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": {
+    "type": "minecraft:ruined_portal",
+    "biomes": "#minecraft:has_structure/ruined_portal_desert",
+    "setups": [
+      {
+        "air_pocket_probability": 0,
+        "can_be_cold": false,
+        "mossiness": 0,
+        "overgrown": false,
+        "placement": "partly_buried",
+        "replace_with_blackstone": false,
+        "vines": false,
+        "weight": 1
+      }
+    ],
+    "spawn_overrides": {},
+    "step": "surface_structures"
+  },
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": -48,
+      "max_inclusive": 256
+    }
+  }
+}

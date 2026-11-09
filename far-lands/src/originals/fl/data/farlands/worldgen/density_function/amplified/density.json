@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "farlands:in_farlands",
+  "min_inclusive": -100,
+  "max_exclusive": 0,
+  "when_in_range": "minecraft:overworld_amplified/final_density",
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "farlands:in_farlands",
+    "min_inclusive": 0,
+    "max_exclusive": 2,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "farlands:in_farlands_x",
+      "min_inclusive": -100,
+      "max_exclusive": 0,
+      "when_in_range": "farlands:z_farlands",
+      "when_out_of_range": "farlands:x_farlands"
+    },
+    "when_out_of_range": "farlands:corner_farlands"
+  }
+}

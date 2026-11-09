@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:slice",
+      "axis": "z",
+      "coordinate": 0,
+      "input": {
+        "type": "minecraft:noise",
+        "noise": "farlands:farlands",
+        "xz_scale": 6,
+        "y_scale": 3,
+        "shift_x": 0,
+        "shift_y": 0,
+        "shift_z": 0
+      }
+    },
+    "right": {
+      "type": "minecraft:div",
+      "left": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:slice",
+          "axis": "z",
+          "coordinate": 0,
+          "input": {
+            "type": "minecraft:noise",
+            "noise": "farlands:farlands",
+            "xz_scale": 6,
+            "y_scale": 3,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": 0
+          }
+        },
+        "right": {
+          "type": "minecraft:slice",
+          "axis": "x",
+          "coordinate": 0,
+          "input": {
+            "type": "minecraft:noise",
+            "noise": "farlands:farlands",
+            "xz_scale": 0.125,
+            "y_scale": 3,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": 0
+          }
+        }
+      },
+      "right": 2
+    }
+  },
+  "right": 2
+}

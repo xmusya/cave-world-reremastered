@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": -0.334375,
+    "right": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:gradient",
+        "from_value": 0,
+        "to_value": 1.0,
+        "from_coordinate": 32,
+        "to_coordinate": 40,
+        "axis": "y"
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": 0.234375,
+        "right": {
+          "type": "minecraft:add",
+          "left": -23.4375,
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:gradient",
+              "from_value": 1,
+              "to_value": 0,
+              "from_coordinate": 180,
+              "to_coordinate": 480,
+              "axis": "y"
+            },
+            "right": {
+              "type": "minecraft:add",
+              "left": 23.4375,
+              "right": "minecraft:end/base_3d_noise"
+            }
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "tiling": "clamp_to_edge",
+          "from_coordinate": -30,
+          "to_coordinate": 0,
+          "from_value": 0.0,
+          "to_value": 1.0
+        },
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "tiling": "clamp_to_edge",
+          "from_coordinate": 75,
+          "to_coordinate": 100,
+          "from_value": 1.0,
+          "to_value": 0.0
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": "minecraft:end/base_3d_noise",
+        "right": 0.2
+      }
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "tiling": "clamp_to_edge",
+          "from_coordinate": 130,
+          "to_coordinate": 160,
+          "from_value": 0.0,
+          "to_value": 1.0
+        },
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "tiling": "clamp_to_edge",
+          "from_coordinate": 240,
+          "to_coordinate": 256,
+          "from_value": 1.0,
+          "to_value": 0.0
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": "minecraft:end/base_3d_noise",
+        "right": 0.35
+      }
+    }
+  }
+}

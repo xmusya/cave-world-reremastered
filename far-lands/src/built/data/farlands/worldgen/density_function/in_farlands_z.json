@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": 2,
+      "right": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:abs",
+          "input": "farlands:coord_z"
+        },
+        "right": "farlands:range"
+      }
+    },
+    "right": -1
+  },
+  "min": -1,
+  "max": 1
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:sub",
+    "left": "minecraft:y",
+    "right": 80
+  },
+  "min_inclusive": 16,
+  "max_exclusive": 128,
+  "when_in_range": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:gradient",
+      "from_value": 1.5,
+      "to_value": -1.5,
+      "from_coordinate": 16,
+      "to_coordinate": 400,
+      "axis": "y"
+    },
+    "right": "minecraft:overworld/offset"
+  },
+  "when_out_of_range": 0
+}

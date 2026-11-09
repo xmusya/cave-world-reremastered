@@ -1,0 +1,40 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": {
+    "type": "minecraft:swamp_hut",
+    "biomes": "#minecraft:has_structure/swamp_hut",
+    "spawn_overrides": {
+      "creature": {
+        "bounding_box": "piece",
+        "spawns": [
+          {
+            "type": "minecraft:cat",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
+          }
+        ]
+      },
+      "monster": {
+        "bounding_box": "piece",
+        "spawns": [
+          {
+            "type": "minecraft:witch",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "step": "surface_structures"
+  },
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": -48,
+      "max_inclusive": 256
+    }
+  }
+}

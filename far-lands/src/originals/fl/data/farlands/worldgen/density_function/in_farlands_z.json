@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:max",
+  "left": {
+    "type": "minecraft:gradient",
+    "axis": "z",
+    "tiling": "clamp_to_edge",
+    "from_coordinate": 12550822,
+    "to_coordinate": 12550823,
+    "from_value": -1,
+    "to_value": 1
+  },
+  "right": {
+    "type": "minecraft:gradient",
+    "axis": "z",
+    "tiling": "clamp_to_edge",
+    "from_coordinate": -12550822,
+    "to_coordinate": -12550823,
+    "from_value": -1,
+    "to_value": 1
+  }
+}

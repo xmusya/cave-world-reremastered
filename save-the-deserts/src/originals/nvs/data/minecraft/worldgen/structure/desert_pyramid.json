@@ -1,0 +1,17 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": {
+    "type": "minecraft:desert_pyramid",
+    "biomes": "#minecraft:has_structure/desert_pyramid",
+    "step": "surface_structures",
+    "spawn_overrides": {}
+  },
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": -48,
+      "max_inclusive": 256
+    }
+  }
+}

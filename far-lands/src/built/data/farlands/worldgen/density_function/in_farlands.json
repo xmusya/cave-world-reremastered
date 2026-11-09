@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "left": "farlands:in_farlands_x",
+  "right": "farlands:in_farlands_z"
+}

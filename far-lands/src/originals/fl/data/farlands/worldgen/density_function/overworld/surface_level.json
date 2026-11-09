@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "farlands:in_farlands",
+  "min_inclusive": -100,
+  "max_exclusive": 0,
+  "when_in_range": "minecraft:overworld/preliminary_surface_level",
+  "when_out_of_range": -64
+}

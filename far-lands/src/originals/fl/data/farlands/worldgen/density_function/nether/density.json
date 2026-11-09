@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "farlands:in_farlands",
+  "min_inclusive": -100,
+  "max_exclusive": 0,
+  "when_in_range": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:squeeze",
+        "input": {
+          "type": "minecraft:interpolated",
+          "cell_size_xz": 4,
+          "cell_size_y": 8,
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:blend_density",
+              "input": {
+                "type": "minecraft:lerp",
+                "alpha": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "from_coordinate": -8,
+                  "from_value": 0.0,
+                  "to_coordinate": 24,
+                  "to_value": 1.0
+                },
+                "first": 2.5,
+                "second": {
+                  "type": "minecraft:lerp",
+                  "alpha": {
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "from_coordinate": 104,
+                    "from_value": 1.0,
+                    "to_coordinate": 128,
+                    "to_value": 0.0
+                  },
+                  "first": 0.9375,
+                  "second": "minecraft:nether/base_3d_noise"
+                }
+              }
+            },
+            "right": 0.64
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:beardifier"
+      }
+    },
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "farlands:in_farlands",
+    "min_inclusive": 0,
+    "max_exclusive": 2,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "farlands:in_farlands_x",
+      "min_inclusive": -100,
+      "max_exclusive": 0,
+      "when_in_range": "farlands:z_farlands",
+      "when_out_of_range": "farlands:x_farlands"
+    },
+    "when_out_of_range": "farlands:corner_farlands"
+  }
+}

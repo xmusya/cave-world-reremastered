@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:squeeze",
+    "input": {
+      "type": "minecraft:mul",
+      "left": 0.8,
+      "right": {
+        "type": "minecraft:interpolated",
+        "input": {
+          "type": "minecraft:blend_density",
+          "input": "rfi:terrain/post_aquatic_changes"
+        },
+        "cell_size_xz": 4,
+        "cell_size_y": 8
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:beardifier"
+  }
+}

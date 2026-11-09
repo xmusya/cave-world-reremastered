@@ -1,0 +1,29 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": {
+    "type": "minecraft:ruined_portal",
+    "biomes": "#minecraft:has_structure/ruined_portal_jungle",
+    "setups": [
+      {
+        "air_pocket_probability": 0.5,
+        "can_be_cold": false,
+        "mossiness": 0.8,
+        "overgrown": true,
+        "placement": "on_land_surface",
+        "replace_with_blackstone": false,
+        "vines": true,
+        "weight": 1
+      }
+    ],
+    "spawn_overrides": {},
+    "step": "surface_structures"
+  },
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": -48,
+      "max_inclusive": 256
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:div",
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "farlands:farlands",
+      "xz_scale": 1,
+      "y_scale": 0
+    },
+    "right": 16
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": "farlands:corner_farlands_layers",
+    "right": 0
+  }
+}
