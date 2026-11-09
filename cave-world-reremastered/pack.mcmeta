@@ -1,103 +1,106 @@
 {
-  "pack": {
-    "pack_format": 121,
-    "description": "Brings back the Cave World ReRemastered.",
-    "min_format": 15,
-    "max_format": 199,
-    "supported_formats": [15, 199]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "1.20.5-1.20.6",
-        "formats": [
-          41,
-          199
-        ],
-        "min_format": 41,
-        "max_format": 199
-      },
-	  {
-        "directory": "1.21.0-1.21.1",
-        "formats": [
-          41,
-          199
-        ],
-        "min_format": 41,
-        "max_format": 199
-      },
-      {
-        "directory": "1.21.2-1.21.3",
-        "formats": [
-          57,
-          199
-        ],
-        "min_format": 57,
-        "max_format": 199
-      },
-      {
-        "directory": "1.21.4",
-        "formats": [
-          61,
-          199
-        ],
-        "min_format": 61,
-        "max_format": 199
-      },
-      {
-        "directory": "1.21.5-1.21.8",
-        "formats": [
-          71,
-          199
-        ],
-        "min_format": 71,
-        "max_format": 199
-      },
-      {
-        "directory": "1.21.9-1.21.10",
-        "formats": [
-          88,
-          199
-        ],
-        "min_format": 88,
-        "max_format": 199
-      },
-      {
-        "directory": "1.21.11",
-        "formats": [
-          94,
-          199
-        ],
-        "min_format": 94,
-        "max_format": 199
-      },
-      {
-        "directory": "26.1",
-        "formats": [
-          100,
-          199
-        ],
-        "min_format": 100,
-        "max_format": 199
-      },
-      {
-        "directory": "26.2",
-        "formats": [
-          107,
-          199
-        ],
-        "min_format": 107,
-        "max_format": 199
-      },
-      {
-        "directory": "26.3",
-        "formats": [
-          121,
-          199
-        ],
-        "min_format": 121,
-        "max_format": 199
-      }
-    ]
-  }
+ "pack": {
+  "pack_format": 121,
+  "description": "\u00a7eCave World 26.3 all-in-one v3 \u00a7r\u2014 open chambers, chamber trees, sand patches + biome sand, matched villages",
+  "min_format": 15,
+  "max_format": 199,
+  "supported_formats": [
+   15,
+   199
+  ]
+ },
+ "overlays": {
+  "entries": [
+   {
+    "directory": "1.20.5-1.20.6",
+    "formats": [
+     41,
+     199
+    ],
+    "min_format": 41,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.0-1.21.1",
+    "formats": [
+     41,
+     199
+    ],
+    "min_format": 41,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.2-1.21.3",
+    "formats": [
+     57,
+     199
+    ],
+    "min_format": 57,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.4",
+    "formats": [
+     61,
+     199
+    ],
+    "min_format": 61,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.5-1.21.8",
+    "formats": [
+     71,
+     199
+    ],
+    "min_format": 71,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.9-1.21.10",
+    "formats": [
+     88,
+     199
+    ],
+    "min_format": 88,
+    "max_format": 199
+   },
+   {
+    "directory": "1.21.11",
+    "formats": [
+     94,
+     199
+    ],
+    "min_format": 94,
+    "max_format": 199
+   },
+   {
+    "directory": "26.1",
+    "formats": [
+     100,
+     199
+    ],
+    "min_format": 100,
+    "max_format": 199
+   },
+   {
+    "directory": "26.2",
+    "formats": [
+     107,
+     199
+    ],
+    "min_format": 107,
+    "max_format": 199
+   },
+   {
+    "directory": "26.3",
+    "formats": [
+     121,
+     199
+    ],
+    "min_format": 121,
+    "max_format": 199
+   }
+  ]
+ }
 }
