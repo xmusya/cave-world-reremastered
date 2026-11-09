@@ -30,7 +30,7 @@
    "target_condition": {
     "type": "minecraft:solid"
    },
-   "max_steps": 100
+   "max_steps": 32
   },
   {
    "type": "minecraft:offset",
