@@ -426,14 +426,14 @@
                "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                 "id": "minecraft:stone"
+                 "id": "minecraft:red_sandstone"
                 }
                }
               },
               {
                "type": "minecraft:block",
                "result_state": {
-                "id": "minecraft:gravel"
+                "id": "minecraft:red_sand"
                }
               }
              ]
@@ -1038,14 +1038,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:stone"
+                   "id": "minecraft:sandstone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:gravel"
+                  "id": "minecraft:sand"
                  }
                 }
                ]
@@ -1075,14 +1075,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:stone"
+                   "id": "minecraft:sandstone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:gravel"
+                  "id": "minecraft:sand"
                  }
                 }
                ]
@@ -1828,14 +1828,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:stone"
+                   "id": "minecraft:sandstone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:gravel"
+                  "id": "minecraft:sand"
                  }
                 }
                ]
@@ -1865,14 +1865,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:stone"
+                   "id": "minecraft:sandstone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:gravel"
+                  "id": "minecraft:sand"
                  }
                 }
                ]
@@ -2073,7 +2073,7 @@
           "then_run": {
            "type": "minecraft:block",
            "result_state": {
-            "id": "minecraft:stone"
+            "id": "minecraft:sandstone"
            }
           }
          }
@@ -2099,7 +2099,7 @@
           "then_run": {
            "type": "minecraft:block",
            "result_state": {
-            "id": "minecraft:stone"
+            "id": "minecraft:sandstone"
            }
           }
          }
@@ -2160,14 +2160,14 @@
             "then_run": {
              "type": "minecraft:block",
              "result_state": {
-              "id": "minecraft:stone"
+              "id": "minecraft:sandstone"
              }
             }
            },
            {
             "type": "minecraft:block",
             "result_state": {
-             "id": "minecraft:gravel"
+             "id": "minecraft:sand"
             }
            }
           ]
