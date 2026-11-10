@@ -426,14 +426,14 @@
                "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                 "id": "minecraft:red_sandstone"
+                 "id": "minecraft:stone"
                 }
                }
               },
               {
                "type": "minecraft:block",
                "result_state": {
-                "id": "minecraft:red_sand"
+                "id": "minecraft:gravel"
                }
               }
              ]
@@ -1038,14 +1038,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:sandstone"
+                   "id": "minecraft:stone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:sand"
+                  "id": "minecraft:gravel"
                  }
                 }
                ]
@@ -1075,14 +1075,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:sandstone"
+                   "id": "minecraft:stone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:sand"
+                  "id": "minecraft:gravel"
                  }
                 }
                ]
@@ -1828,14 +1828,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:sandstone"
+                   "id": "minecraft:stone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:sand"
+                  "id": "minecraft:gravel"
                  }
                 }
                ]
@@ -1865,14 +1865,14 @@
                  "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                   "id": "minecraft:sandstone"
+                   "id": "minecraft:stone"
                   }
                  }
                 },
                 {
                  "type": "minecraft:block",
                  "result_state": {
-                  "id": "minecraft:sand"
+                  "id": "minecraft:gravel"
                  }
                 }
                ]
@@ -2073,7 +2073,7 @@
           "then_run": {
            "type": "minecraft:block",
            "result_state": {
-            "id": "minecraft:sandstone"
+            "id": "minecraft:stone"
            }
           }
          }
@@ -2099,7 +2099,7 @@
           "then_run": {
            "type": "minecraft:block",
            "result_state": {
-            "id": "minecraft:sandstone"
+            "id": "minecraft:stone"
            }
           }
          }
@@ -2160,14 +2160,14 @@
             "then_run": {
              "type": "minecraft:block",
              "result_state": {
-              "id": "minecraft:sandstone"
+              "id": "minecraft:stone"
              }
             }
            },
            {
             "type": "minecraft:block",
             "result_state": {
-             "id": "minecraft:sand"
+             "id": "minecraft:gravel"
             }
            }
           ]
@@ -2285,56 +2285,6 @@
      "properties": {
       "axis": "y"
      }
-    }
-   }
-  },
-  {
-   "type": "minecraft:condition",
-   "if_true": {
-    "type": "minecraft:not",
-    "invert": {
-     "type": "minecraft:y_above",
-     "add_stone_depth": false,
-     "anchor": {
-      "absolute": 240
-     },
-     "surface_depth_multiplier": 0
-    }
-   },
-   "then_run": {
-    "type": "minecraft:condition",
-    "if_true": {
-     "type": "minecraft:biome",
-     "biome_is": [
-      "minecraft:desert",
-      "minecraft:beach",
-      "minecraft:snowy_beach",
-      "minecraft:warm_ocean",
-      "minecraft:badlands",
-      "minecraft:eroded_badlands",
-      "minecraft:wooded_badlands",
-      "minecraft:old_growth_birch_forest",
-      "minecraft:savanna",
-      "minecraft:savanna_plateau",
-      "minecraft:forest",
-      "minecraft:birch_forest",
-      "minecraft:plains",
-      "minecraft:taiga",
-      "minecraft:flower_forest",
-      "minecraft:old_growth_pine_taiga",
-      "minecraft:old_growth_spruce_taiga",
-      "minecraft:dark_forest"
-     ]
-    },
-    "then_run": {
-     "type": "minecraft:condition",
-     "if_true": {
-      "type": "minecraft:water",
-      "add_stone_depth": false,
-      "offset": -1,
-      "surface_depth_multiplier": 0
-     },
-     "then_run": "minecraft:overworld/sand_or_sandstone_if_ceiling"
     }
    }
   }
