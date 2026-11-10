@@ -6,8 +6,40 @@
    "count": 150
   },
   {
-   "type": "minecraft:count_on_every_layer",
-   "count": 1
+   "type": "minecraft:in_square"
+  },
+  {
+   "type": "minecraft:height_range",
+   "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+     "absolute": 20
+    },
+    "max_inclusive": {
+     "absolute": 230
+    }
+   }
+  },
+  {
+   "type": "minecraft:environment_scan",
+   "direction_of_search": "down",
+   "allowed_search_condition": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "minecraft:air"
+   },
+   "target_condition": {
+    "type": "minecraft:solid"
+   },
+   "max_steps": 32
+  },
+  {
+   "type": "minecraft:offset",
+   "x": 0,
+   "y": 1,
+   "z": 0
+  },
+  {
+   "type": "minecraft:biome"
   },
   {
    "type": "minecraft:block_predicate_filter",
@@ -17,9 +49,6 @@
      "minecraft:air"
     ]
    }
-  },
-  {
-   "type": "minecraft:biome"
   },
   {
    "type": "minecraft:block_predicate_filter",
